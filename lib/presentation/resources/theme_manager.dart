@@ -11,7 +11,7 @@ ThemeData getApplicationTheme() {
     primaryColorLight: ColorManager.primaryOpacity70,
     primaryColorDark: ColorManager.darkPrimary,
     disabledColor: ColorManager.grey1,
-    colorSchemeSeed: ColorManager.grey,
+    // colorSchemeSeed: ColorManager.grey,
     //     App Bar Theme
     appBarTheme: AppBarTheme(
       centerTitle: true,
@@ -60,6 +60,9 @@ ThemeData getApplicationTheme() {
       ),
       bodyLarge: getRegularStyle(
         color: ColorManager.grey,
+      ),
+      bodyMedium: getRegularStyle(
+        color: ColorManager.primary,
       ),
       bodySmall: getRegularStyle(
         color: ColorManager.grey1,

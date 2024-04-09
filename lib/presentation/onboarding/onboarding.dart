@@ -9,7 +9,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class OnBoardingView extends StatefulWidget {
-  const OnBoardingView({super.key});
+  const OnBoardingView({Key? key}) : super(key: key);
 
   @override
   State<OnBoardingView> createState() => _OnBoardingViewState();
@@ -194,8 +194,8 @@ class _OnBoardingViewState extends State<OnBoardingView> {
 class OnBoardingPage extends StatelessWidget {
   OnBoardingPage(
     this._sliderObject, {
-    super.key,
-  });
+    Key? key,
+  }) : super(key: key);
 
   SliderObject _sliderObject;
 

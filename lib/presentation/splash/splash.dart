@@ -6,7 +6,7 @@ import 'package:clean_arch/presentation/resources/color_manager.dart';
 import 'package:clean_arch/presentation/resources/routes_manager.dart';
 
 class SplashView extends StatefulWidget {
-  const SplashView({super.key});
+  const SplashView({Key? key}) : super(key: key);
 
   @override
   State<SplashView> createState() => _SplashViewState();

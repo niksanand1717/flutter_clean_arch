@@ -39,7 +39,8 @@ ThemeData getApplicationTheme() {
         textStyle: getRegularStyle(
           color: ColorManager.white,
         ),
-        backgroundColor: ColorManager.primary,
+        shadowColor: ColorManager.primary,
+        // backgroundColor: ColorManager.primary,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(
             AppSize.s12,
